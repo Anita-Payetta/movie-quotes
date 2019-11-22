@@ -1,84 +1,121 @@
-/*selector {
-    propiedad: valor;
-    otra-propiedad: otro-valor
+body {
+    background-color: rgb(182, 206, 141);
+    margin: 0;
+}
+.movie-1 {
+    color: snow;
+    font-size: 14px;
+    font-family: 'Roboto Slab', Serif;
+    font-style: italic;
 }
 
-otro-selector {
-    propiedad: valor;
-    otra-propiedad: otro-valor
-}*/
-
-/*p {
-    color: indigo; 
-    font-size: 36px;
-}*/
-/*el selector lleva el nombre de la etiqueta a la que le quiero cambiar el estilo*/
-/*color: cambia el color del texto se puede usar "rgb", "hsl" y hexadecimal*/
-/*font-size: cambia el tamaño de la fuente*/
-/*font-family: cambia la tipografía, siempre es conveniente poner varias por si no esta descargada en el navegador*/
-
-/*#deadpool {
-    color: aquamarine;
-    font-size: 18px;
+.movie-2 {
+    color: wheat;
+    font-size: 14px;
+    font-family: 'Catamaran', Sans-Serif;
+    font-style: italic;
 }
 
-#vendetta {
-    color: brown;
-    font-size: 18px;
+.movie-3 {
+    color: black;
+    font-size: 14px;
+    font-family: 'Bitter', Serif;
+    font-style: italic;
 }
 
-#spider-man {
-    color: chocolate;
-    font-size: 18px;
-}
-
-#batman_begins {
-    color: darkgoldenrod;
-    font-size: 18px;
-}
-
-#batman_el_caballero_oscuro {
-    color: firebrick;
-    font-size: 18px;
-}
-
-#x-men {
-    color: greenyellow;
-    font-size: 18px;
-}*/
-
-.movie_1 {
-    color: hotpink;
-    font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.movie_2 {
-    color: green;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.movie_3 {
-    color: red;
-    font-size: 26px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.frase_1 {
-    color: indigo;
-    font-size: 36px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.frase_2 {
-    color: blue;
-    font-size: 34px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.frase_3 {
-    color: palegreen;
+.quote-1 {
+    color: snow;
     font-size: 32px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Ruda', Sans-Serif;
+    padding: 0 15px;
+    border-left: 4px solid darkolivegreen;
 }
+
+.quote-2 {
+    color: wheat;
+    font-size: 34px;
+    font-family: 'Lato', Sans-Serif;
+    padding: 0 15px;
+    border-left: 4px solid rgb(207, 77, 17);
+}
+
+.quote-3 {
+    color: black;
+    font-size: 34px;
+    font-family: 'PT Sans', Sans-Serif;
+    padding: 0 15px;
+    border-left: 4px solid orange;
+}
+
+.quote-container1 {
+    color: rgb(182, 206, 141);
+    background-color: darkkhaki;
+    width: 60%;
+    height: fit-content;
+    margin: 40px auto;
+    padding: 46px;   
+}
+
+.quote-container2 {
+    color: burlywood;
+    background-color: coral;
+    width: 60%;
+    height: fit-content;
+    margin: 40px auto;
+    padding: 46px;   
+}
+
+.quote-container3 {
+    color: goldenrod;
+    background-color: rgb(243, 223, 136);
+    width: 60%;
+    height: fit-content;
+    margin: 40px auto;
+    padding: 46px;  
+}
+
+.section-one{
+    background-color: rgb(182, 206, 141);
+    padding: 50px;
+}
+
+.section-two{
+    background-color: lightsalmon;
+    padding: 50px;
+}
+
+.section-three{
+    background-color: lemonchiffon;
+    padding: 50px;
+}
+
+
+/*img {
+    with: 100px; /*esto me define el ancho
+}*/
+/*box model, modelo de caja. La caja aparte del ancho y del alto tiene las siguientes medidas importantes:
+contenido: es el contenido interno de la caja, lo que contiene.
+padding: distancia entre el borde de una caja y el contenido. Espacio interior. En el padding también puedo definir cada uno.
+padding: top right bottom left;
+Si el padding es igual para todos uso versión abreviada:
+padding: 30px;
+Si defino dos valores, el primero es para los verticales y el segundo para los horizontrales.
+padding: 30px 40px;
+Si defino 3 valores tengo top, right/left y bottom.
+padding: 30px 40px 25px;
+
+border: es el perímetro de la caja.Son 3 propiedades en una.
+border-with: que tan grueso es el borde
+border-style: solid
+border-color: va el color
+la forma abreviada es: 
+border: ancho tipo_de_borde y color.
+se puede especificar cada uno de los bordes: border-top, border-right, border-bottom, border-left siempre en este órden en sentido horario.
+Ejemplo: border-top: 1px solid black;
+
+margin: separación entre dos cajas, espacio exterior.
+Se utiliza como el padding.
+margin: 60px auto;
+el auto completa el márgen completo (en este caso 60px arriba y abajo y completo hacia los costados).
+
+with y height (ancho y alto): en diseño reponsive puedo usar % que cambia a porcentaje de pantalla, los px son fijos y no dependen del tamaño de pantalla.
