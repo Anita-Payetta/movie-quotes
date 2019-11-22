@@ -50,7 +50,7 @@ body {
 .quote-container1 {
     color: rgb(182, 206, 141);
     background-color: darkkhaki;
-    width: 60%;
+    width: 400px;
     height: fit-content;
     margin: 40px auto;
     padding: 46px;   
@@ -59,7 +59,7 @@ body {
 .quote-container2 {
     color: burlywood;
     background-color: coral;
-    width: 60%;
+    width: 400px;
     height: fit-content;
     margin: 40px auto;
     padding: 46px;   
@@ -68,7 +68,7 @@ body {
 .quote-container3 {
     color: goldenrod;
     background-color: rgb(243, 223, 136);
-    width: 60%;
+    width: 400px;
     height: fit-content;
     margin: 40px auto;
     padding: 46px;  
@@ -90,32 +90,7 @@ body {
 }
 
 
-/*img {
-    with: 100px; /*esto me define el ancho
-}*/
-/*box model, modelo de caja. La caja aparte del ancho y del alto tiene las siguientes medidas importantes:
-contenido: es el contenido interno de la caja, lo que contiene.
-padding: distancia entre el borde de una caja y el contenido. Espacio interior. En el padding también puedo definir cada uno.
-padding: top right bottom left;
-Si el padding es igual para todos uso versión abreviada:
-padding: 30px;
-Si defino dos valores, el primero es para los verticales y el segundo para los horizontrales.
-padding: 30px 40px;
-Si defino 3 valores tengo top, right/left y bottom.
-padding: 30px 40px 25px;
-
-border: es el perímetro de la caja.Son 3 propiedades en una.
-border-with: que tan grueso es el borde
-border-style: solid
-border-color: va el color
-la forma abreviada es: 
-border: ancho tipo_de_borde y color.
-se puede especificar cada uno de los bordes: border-top, border-right, border-bottom, border-left siempre en este órden en sentido horario.
-Ejemplo: border-top: 1px solid black;
-
-margin: separación entre dos cajas, espacio exterior.
-Se utiliza como el padding.
-margin: 60px auto;
-el auto completa el márgen completo (en este caso 60px arriba y abajo y completo hacia los costados).
-
-with y height (ancho y alto): en diseño reponsive puedo usar % que cambia a porcentaje de pantalla, los px son fijos y no dependen del tamaño de pantalla.
+img {
+    width: 492px;
+    margin: -46px -46px 0px -46px;
+}
