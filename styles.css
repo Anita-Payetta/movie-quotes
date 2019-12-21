@@ -2,95 +2,98 @@ body {
     background-color: rgb(182, 206, 141);
     margin: 0;
 }
-.movie-1 {
+
+.quote {
+    width: 492px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.quote-author {
+    align-self: flex-start;
+    padding: 0px 59px;
+}
+
+.quote-author-one {
     color: snow;
     font-size: 14px;
     font-family: 'Roboto Slab', Serif;
     font-style: italic;
 }
 
-.movie-2 {
+.quote-author-two {
     color: wheat;
     font-size: 14px;
     font-family: 'Catamaran', Sans-Serif;
     font-style: italic;
 }
 
-.movie-3 {
+.quote-author-three {
     color: black;
     font-size: 14px;
     font-family: 'Bitter', Serif;
     font-style: italic;
 }
 
-.quote-1 {
-    color: snow;
-    font-size: 32px;
+.quote-text {
+    font-size: 34px;
     font-family: 'Ruda', Sans-Serif;
-    padding: 0 15px;
+    padding: 0px 15px;
+    margin: 40px;
+}
+
+.quote-text-one {
+    color: snow;
     border-left: 4px solid darkolivegreen;
 }
 
-.quote-2 {
+.quote-text-two {
     color: wheat;
-    font-size: 34px;
-    font-family: 'Lato', Sans-Serif;
-    padding: 0 15px;
     border-left: 4px solid rgb(207, 77, 17);
 }
 
-.quote-3 {
+.quote-text-three {
     color: black;
-    font-size: 34px;
-    font-family: 'PT Sans', Sans-Serif;
-    padding: 0 15px;
     border-left: 4px solid orange;
 }
 
-.quote-container1 {
+.quote-container-one {
     color: rgb(182, 206, 141);
     background-color: darkkhaki;
-    width: 400px;
-    height: fit-content;
-    margin: 40px auto;
-    padding: 46px;   
 }
 
-.quote-container2 {
+.quote-container-two {
     color: burlywood;
-    background-color: coral;
-    width: 400px;
-    height: fit-content;
-    margin: 40px auto;
-    padding: 46px;   
+    background-color: coral;  
 }
 
-.quote-container3 {
+.quote-container-three {
     color: goldenrod;
     background-color: rgb(243, 223, 136);
-    width: 400px;
-    height: fit-content;
-    margin: 40px auto;
-    padding: 46px;  
 }
 
+.section {
+    padding: 40px 0;
+}
 .section-one{
     background-color: rgb(182, 206, 141);
-    padding: 50px;
 }
 
 .section-two{
     background-color: lightsalmon;
-    padding: 50px;
 }
 
 .section-three{
     background-color: lemonchiffon;
-    padding: 50px;
 }
 
+.quote-image-container {
+    width: 100%;
+}
 
-img {
-    width: 492px;
-    margin: -46px -46px 0px -46px;
+.quote-image {
+    width: 100%;
 }
